@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tableau de Bord des Tâches</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="section1">
+                <div class="section11">
+                    <h1>Welcome</h1>
+                    <h3>Bienvenue dans le tableau de bord des taches.</h3>
+                </div>
+            </div>
+           <div class="section2">
+                 <header>Gestionnaire de Tâches</header>
+                 <div class="form">
+                <input id="nom" type="text" placeholder="Entrer le nom de la tache" style="height: 3em;width: 60%;border-radius: 6px;text-indent: 16px;" >
+                <textarea id="description" placeholder="Entrer la description de la tache" rows="5" ></textarea>
+                <input id="date" type="date" placeholder="Entrer le nom de la tache" style="height: 3em;width: 60%;border-radius: 6px;text-indent: 16px;" >
+                <button onclick="Ajout()" style="height: 3em;width: 60%;border-radius: 6px;text-indent: 16px;color: white;background-color: orange;font-size: medium;border: 1px solid orange;" > Envoyer </button>
+            </div>
+                 <div id="task-list">
+                   
+                 </div>
+           </div>
+        </main>
+       
+
+        <script src="script.js" ></script>
+    </body>
+</html>
